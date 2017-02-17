@@ -1,2 +1,3 @@
-# front-end-notes
-Notes about front end development
+# Front-end Dev Notes
+
+My notes on front end development
