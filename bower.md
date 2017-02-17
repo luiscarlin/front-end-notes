@@ -7,6 +7,7 @@
 npm install -g bower
 
 # initialize bower app (generates bower.json)
+# in $ROOT_PROJ/$APP_NAME
 bower init
 
 # dependencies added/ removed from json file and bower_components when using "--save"
@@ -18,7 +19,7 @@ bower list
 # uninstall packages and remove from bower.json file
 bower uninstall jquery --save
 
-# print relative paths to packages
+# print relative paths to packages. You can use them for <scrpt> in html files
 bower list --paths
 
 # bower components should not be pushed to git repo

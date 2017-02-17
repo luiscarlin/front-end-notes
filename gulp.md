@@ -1,8 +1,19 @@
 # Gulp
 
 - requires node and npm (comes with node)
-- install `npm install --global gulp gulp-cli`
-- 4 parts:
+- easier learning curve and (possibly) faster than Grunt because of async execution
+- Grunt may be slower because write to temp files
+- Grunt has been around for longer and has more plugins
+
+```bash
+# install
+npm install -g gulp
+
+# in $ROOT_PROJ/
+touch gulpfile.js
+```
+
+- 4 parts in gulpfile.js:
   - required modules
 
     ```js
@@ -31,6 +42,3 @@
     // tasks are run asynchronously, but you can set sequence
     gulp.task('default', ['scripts', 'watch']);
     ```
-- Easier learning curve and (possibly) faster than Grunt because of async execution
-- Grunt may be slower because write to temp files
-- Grunt has been around for longer and has more plugins
